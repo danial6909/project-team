@@ -18,3 +18,31 @@
 
     }
 }
+@media screen and (max-width: 1200px){
+    .contact-info{
+        border-right: 3px solid white;
+        border-left: none;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .contact-info{
+        border: none;
+    }
+    .sec-div{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 576px){
+    .feature-icon{
+
+        border-right: 2px solid rgb(188, 188, 188);
+        border-left: none;
+        padding-left: 0%;
+        padding-right: 3%;
+    }
+    .circle{
+        margin-right: 15px;
+    }
+}

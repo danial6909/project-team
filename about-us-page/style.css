@@ -10,23 +10,26 @@ transition: 0.5s;
 .section-title{
     width: 8rem;
     height: 2rem;
-    background-color: rgb(118, 118, 244);
+    background-color: rgb(118, 158, 244);
     border-radius: 2rem;
+    color: white;
 }
 .circle{      
     width: 3rem;
     height: 3rem;
-    background-color: #aad0f1;
+    background-color: #bdc6f54c;
     border-radius: 50%;  
     margin-top: -0.5rem;
     margin-right: -0.5rem;
+    transition: all 0.3s ease-in-out;
 }
-.first-col{
-  margin-left: 0;
+.feature-box:hover .circle{
+    transform: translatey(30%);
+
 }
 .g-img{
-    mask-image: url(/assets/images/mask_img.png);
-    -webkit-mask-image: url(/assets/images/mask_img.png);
+    mask-image: url(/assets/images/background/mask_img.png);
+    -webkit-mask-image: url(/assets/images/background/mask_img.png);
     -webkit-mask-size: 100%;
     mask-size: 100%;  
     -webkit-mask-repeat: no-repeat;
@@ -87,4 +90,77 @@ transition: 0.5s;
   .business-goal-first-div{
     margin-right: 40px;
     
+  }
+  .info-section{
+    margin-top: 150px;
+  }
+  .header-box{
+    background-color: rgb(7, 101, 234);
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .information-img{
+    margin-top: -9rem;
+    position: absolute;
+    z-index: 0;
+  }
+  .contact-info{
+    border-left: 3px solid white
+    
+  }
+  .contact-icon{
+    font-size: 50px;
+  }
+  .contact-btn{
+    border-radius: 40px;
+    border: 1px solid white;  
+    transition: 0.2s;
+    height: 3rem;
+  }
+  .contact-btn:hover{
+    border-color:  #0d6efd;
+  }
+  .section-contact-title{
+    position: relative;
+  }
+  .feature-box{
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 10px;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+  .feature-box:hover{
+    transform: translatey(-6%);
+
+  }
+  .feature-icon{
+    border-left: 2px solid rgb(188, 188, 188);
+    padding-left: 10%;
+  }
+  .feature-content{
+    margin-right: 20px;
+  }
+  .feature-row{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .information-section{
+    background: rgb(235,239,251);
+    background: radial-gradient(circle, rgba(235,239,251,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
+  }
+  .team-card{
+    border: none;
+    border-radius: 20px;
+  }
+  .team-card > div > h5 > a{
+    text-decoration: none; color: black
+  }
+  .team-card > div > p{
+    color: rgb(60, 147, 253);
   }
