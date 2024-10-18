@@ -1,0 +1,20 @@
+@media screen and (max-width: 1300px){
+    .red-dot{
+        width: 80px;
+        height: 80px;
+        margin-top: 6rem;
+    margin-right: 0rem;
+    }
+    .red-dot-icon{
+        font-size: 50px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .business-goal{
+        visibility: hidden;
+
+    }
+}

@@ -1,0 +1,90 @@
+.tow-icon{
+font-size: 3rem;
+transition: 0.5s;
+}
+.tow-icon:hover{
+    transform: rotateY(180deg);
+
+}
+
+.section-title{
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(118, 118, 244);
+    border-radius: 2rem;
+}
+.circle{      
+    width: 3rem;
+    height: 3rem;
+    background-color: #aad0f1;
+    border-radius: 50%;  
+    margin-top: -0.5rem;
+    margin-right: -0.5rem;
+}
+.first-col{
+  margin-left: 0;
+}
+.g-img{
+    mask-image: url(/assets/images/mask_img.png);
+    -webkit-mask-image: url(/assets/images/mask_img.png);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;  
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-positionalign-self: center;;
+    mask-position: center;
+    height: auto;
+    width: 100%;    
+    }
+.red-dot{
+    width: 100px;
+    height: 100px;
+    background-color: #f45182;
+    border-radius: 50%;  
+    margin-top: 5rem;
+    margin-right: 4rem;
+    border: 5px solid white;
+    position: absolute;
+    z-index: 1;
+}
+.red-dot-icon{
+    font-size: 70px;
+    color: white;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .rotating-plus{
+    font-size: 40px;
+    margin-right: 8rem;
+}
+  .rotating-icon{
+    animation: rotation 5s infinite linear;
+  }
+  .business-goal{
+    width: 228px;
+    height: 91px;
+    background-color: white;
+    margin-top: 22rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .business-goal-icon{
+    font-size: 40px;
+    background-color: rgb(174, 255, 174);
+    color: green;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+
+  }
+  .business-goal-first-div{
+    margin-right: 40px;
+    
+  }
