@@ -14,8 +14,6 @@ document.addEventListener("scroll", () => {
 
 
 let menu_mobile = document.querySelector(".menu-mobile");
-let icon_bars = document.querySelector(".bars");
-let icon_times = document.querySelector(".times-menu");
 let toggle_menu = document.querySelector(".hamburger input"); // تغییر این خط
 let backgrond_filter = document.querySelector(".backgrond-filter");
 let times = document.querySelector(".times");

@@ -385,6 +385,7 @@ i {
 }
 .title-background {
   font-size: 5rem;
+  font-weight: bold;
   font-family: var(--special-font);
 }
 
@@ -496,7 +497,7 @@ i {
 
 .about-work {
   width: 100%;
-  height: 700px;
+  height: 750px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -569,7 +570,7 @@ i {
   flex-direction: column;
 }
 .title-work-about {
-  font-size: 3rem;
+  font-weight: bold;
   font-size: 5rem;
   font-family: var(--special-font);
 }
@@ -581,14 +582,119 @@ i {
 }
 
 /* ///////////////////////////////////////////////////////////////////////////// */
+/* start features-about  */
+
+.features-area{
+  margin-top: -100px;
+  margin-bottom: 150px;
+}
+
+.features{
+  display: flex;
+  margin-bottom: 10rem;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.features-item-title{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.img-features{
+  width: 50px;
+  height: 50px;
+}
+.img-features-l{
+  width: 66px;
+  height: 66px;
+}
+
+.features-item{
+  background-color: rgba(255, 255, 254,0.4);
+  padding: 4rem;
+  max-width: 400px;
+  border: 2px solid rgb(196, 196, 196);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow:  1px 1px  10px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(198, 198, 198);
+  transition: all 600ms ease-in-out;
+  animation: up 5s infinite;
+  cursor: pointer;
+}
+@keyframes up{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+}
+
+.features-item:hover{
+  background-color: rgba(203, 203, 203, 0.4);
+}
+
+.title-features{
+  font-size: 25px;
+  font-family: var(--special-font);
+}
+
+.text-features{
+  font-size: 1.5rem;
+  font-family: var(--primary-font);
+}
 
 
+/* finish features-about  */
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* start about-us  */
+
+.about-us{
+  margin-bottom: 40rem;
+}
+
+.about-us-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
+.change-font{
+  font-size: 4.5rem;
+}
+
+.change-padding{
+  margin-left: 8rem;
+}
+
+.about-us-left{
+  position: relative;
+}
+.img-about-us-larg{
+  border: 7px solid white;
+  box-shadow: 0 0 80px rgb(148, 148, 148);
+  border-radius: 10px;
+}
+
+.img-about-us-short{
+  position: absolute;
+  right: -140px;
+  top: 37%;
+  border: 7px solid white;
+  transform: rotate(-4deg);
+  box-shadow: 0 0 80px rgb(172, 172, 172);
+  border-radius: 10px;
 
 
+}
 
 
-
-
-
+/* finish about-us  */
