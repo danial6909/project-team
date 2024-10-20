@@ -12,9 +12,9 @@
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1220px){
     .business-goal{
-        visibility: hidden;
+        margin-top: 283px;
 
     }
 }
@@ -25,6 +25,12 @@
     }
 
 }
+
+@media screen and (max-width: 982px){
+    .business-goal{
+        margin-top: 350px;
+    }
+}
 @media screen and (max-width: 768px){
     .contact-info{
         border: none;
@@ -33,6 +39,10 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+    .business-goal{
+        visibility: hidden;
+    }
+
 }
 @media screen and (max-width: 576px){
     .feature-icon{
@@ -40,9 +50,9 @@
         border-right: 2px solid rgb(188, 188, 188);
         border-left: none;
         padding-left: 0%;
-        padding-right: 3%;
+        padding-right: 7%;
     }
     .circle{
-        margin-right: 15px;
+        margin-right: 35px;
     }
 }

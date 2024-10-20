@@ -8,7 +8,7 @@ transition: 0.5s;
 }
 
 .section-title{
-    width: 8rem;
+    width: 17rem;
     height: 2rem;
     background-color: rgb(118, 158, 244);
     border-radius: 2rem;
@@ -35,7 +35,6 @@ transition: 0.5s;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-positionalign-self: center;;
-    mask-position: center;
     height: auto;
     width: 100%;    
     }
@@ -72,19 +71,18 @@ transition: 0.5s;
   .business-goal{
     width: 228px;
     height: 91px;
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     margin-top: 22rem;
     position: absolute;
     z-index: 1;
     border-radius: 10px;
   }
   .business-goal-icon{
-    font-size: 40px;
+    font-size: 35px;
     background-color: rgb(174, 255, 174);
     color: green;
-    width: 60px;
-    height: 60px;
     border-radius: 10px;
+    padding: 10px;
 
   }
   .business-goal-first-div{
@@ -221,4 +219,61 @@ transition: 0.5s;
     opacity: 1;
     visibility: visible;
     bottom: 60px; /* فاصله از دکمه اصلی */
+}
+.price-section-img{
+  margin-top: 200px;
+}
+.form-switch{
+  font-size: 30px;
+}
+.form-check-input:focus{
+  box-shadow: none;
+  
+}
+.form-check-input{
+  background-color: #0d6efd;
+}
+.form-switch .form-check-input{
+  --bs-form-my-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2386b7fe'/%3e%3c/svg%3e);
+  background-image: url(/assets/images/download.svg) ;
+}
+#my-span{
+  font-size: 30px;
+}
+.toggle-color{
+  color: rgb(34, 63, 248);
+}
+#year-text{
+  color: rgb(138, 138, 138); 
+  font-size: 14px;
+}
+#plan-price{
+  font-size: 40px;
+  font-weight: 30px;
+}
+.price-box{
+  background-color: rgb(229, 236, 239);
+  border-radius: 50px;
+}
+.check-icon{
+  color: rgb(0, 150, 0);
+}
+#label-input{
+  margin-left: -90px;
+}
+.arrow-iocn{
+  background-color: black;
+  border-radius: 50%;
+  height: 3rem;
+}
+.second-contact-btn{
+   border-radius: 40px;
+  border: 1px solid white;  
+  transition: 0.2s;
+  height: 3rem;
+ 
+}
+.second-contact-btn:hover{
+  background-color: #0d6efd;
+  border-color: white;
 }
