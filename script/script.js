@@ -1,51 +1,59 @@
-let top_head = document.querySelector(".top-head");
+// import { menu } from "../components/header-menu/header-menu.js";
+// window.customElements.define('header-menu', menu);
 
-document.addEventListener("scroll", () => {
-    let scroll_position = window.scrollY;
 
-    if (scroll_position > 300) {
-        top_head.classList.add("scrolled"); 
-        
-    } else {
-        top_head.classList.remove("scrolled"); 
-       
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     // منو را از فایل HTML بارگذاری کنید
+//     fetch("components/menu/menu.html")
+//         .then(response => response.text())
+//         .then(data => {
+//             document.getElementById("menu").innerHTML = data;
+//             initMenu(); // اجرای تابع تنظیمات جاوااسکریپت بعد از اضافه شدن منو
+//             console.log(document.getElementById("menu").innerHTML); // بررسی محتویات بارگذاری شده
+//         })
+//         .catch(error => console.error("Error loading menu:", error));
+// });
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+// slider
+
+var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+        576: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        1200: {
+            slidesPerView: 3
+        }
     }
-});
-
-
-let menu_mobile = document.querySelector(".menu-mobile");
-let toggle_menu = document.querySelector(".hamburger input"); // تغییر این خط
-let backgrond_filter = document.querySelector(".backgrond-filter");
-let times = document.querySelector(".times");
-let flag = true;
-
-function close_menu() {
-    menu_mobile.style.transform = "translateX(320px)";
-    document.body.classList.remove("non-scroll");
-    backgrond_filter.style.opacity = "0";
-    backgrond_filter.style.visibility = "hidden";
-    toggle_menu.checked = false; // اضافه کردن این خط برای بستن حالت چک‌بوکس
-    flag = true;
-}
-
-toggle_menu.addEventListener("change", () => { // تغییر رویداد به change
-    if (toggle_menu.checked) {
-        menu_mobile.style.transform = "translateX(0)";
-        document.body.classList.add("non-scroll");
-        backgrond_filter.style.opacity = "1";
-        backgrond_filter.style.visibility = "visible";
-        flag = false;
-    } else {
-        close_menu();
-    }
-});
-
-times.addEventListener("click", () => {
-   close_menu();
-});
-
-backgrond_filter.addEventListener("click", () => {
-    close_menu();
-});
-
-
+  });

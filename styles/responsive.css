@@ -5,6 +5,18 @@
   .container {
     margin: 0 50px;
   }
+  .img-about-us-larg{
+    max-width: 250px;
+  }
+  .img-about-us-short{
+    max-width: 200px;
+  }
+  .about-us-box{
+    justify-content: space-between;
+  }
+  /* .about-us-left{
+    width: 400px;
+  } */
 }
 
 /* /////////////////////////////////////////////////////////////////////////////// */
@@ -12,6 +24,7 @@
 @media only screen and (max-width: 995px) {
   .text-work-about {
     margin-right: 0px;
+    margin-bottom: 25rem !important;
   }
   .about-work {
     flex-direction: column;
@@ -25,6 +38,22 @@
   }
   .features-item{
     max-width: 300px !important;
+  }
+  .about-us-box {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    gap: 15rem;
+  }
+  .text-about-us{
+    align-items: center;
+  }
+  .change-padding{
+    margin: 3rem 3rem !important;
+    text-align: center;
+  }
+  .about-list{
+    display: flex;
+    justify-content: center;
   }
 }
 
