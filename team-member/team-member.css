@@ -1,0 +1,24 @@
+.underline{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(8, 122, 252);
+    border-radius: 50px;
+}
+.contact-btn , .second-contact-btn{
+    border-radius: 40px;
+    border: 1px solid white;  
+    height: 3rem;
+  }
+.second-contact-btn{
+    background-color: #e0effe;
+    color: #0059ff;
+}
+.third-progress{
+  width: 75%
+}
+.second-progress{
+  width: 55%
+}
+.first-progress{
+  width: 25%;
+}

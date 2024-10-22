@@ -103,7 +103,7 @@ transition: 0.5s;
     padding-bottom: 4rem;
   }
   .information-img{
-    margin-top: -9rem;
+    margin-top: rem;
     position: absolute;
     z-index: 0;
   }
@@ -119,9 +119,6 @@ transition: 0.5s;
     border: 1px solid white;  
     transition: 0.2s;
     height: 3rem;
-  }
-  .contact-btn:hover{
-    border-color:  #0d6efd;
   }
   .section-contact-title{
     position: relative;
@@ -276,4 +273,22 @@ transition: 0.5s;
 .second-contact-btn:hover{
   background-color: #0d6efd;
   border-color: white;
+}
+.best-offer{
+  color: white;
+  background-color: red;
+  margin-top: -15px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 50px;
+  width: 8rem;
+}
+.price-plan{
+  background: rgb(235,239,251);
+  background: radial-gradient(circle, rgba(235,239,251,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%)
+}  
+.second-bg{
+  background-image: url(/assets/images/background/inner_counter_shape.png);
+  background-repeat: no-repeat;
+  background-position-x: right;  
+  
 }
