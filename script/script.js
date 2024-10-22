@@ -1,30 +1,25 @@
-// import { menu } from "../components/header-menu/header-menu.js";
-// window.customElements.define('header-menu', menu);
+// تابع بارگذاری محتوا
+function loadContent(page) {
+  fetch(`pages/${page}.html`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.text();
+    })
+    .then(data => {
+      document.getElementById('main').innerHTML = data;
+      initializeSlider(); // فراخوانی تابع برای راه‌اندازی مجدد اسلایدر
+    })
+    .catch(error => {
+      document.getElementById('main').innerHTML = '<p>Error loading content. Please try again later.</p>';
+      console.error('There was a problem with the fetch operation:', error);
+    });
+}
 
-
-//////////////////////////////////////////////////////////////////////////////////////
-
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     // منو را از فایل HTML بارگذاری کنید
-//     fetch("components/menu/menu.html")
-//         .then(response => response.text())
-//         .then(data => {
-//             document.getElementById("menu").innerHTML = data;
-//             initMenu(); // اجرای تابع تنظیمات جاوااسکریپت بعد از اضافه شدن منو
-//             console.log(document.getElementById("menu").innerHTML); // بررسی محتویات بارگذاری شده
-//         })
-//         .catch(error => console.error("Error loading menu:", error));
-// });
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////
-
-// slider
-
-var swiper = new Swiper(".mySwiper", {
+// تابع برای راه‌اندازی مجدد اسلایدر
+function initializeSlider() {
+  var swiper = new Swiper(".mySwiper", {
     loop: true,
     effect: "coverflow",
     grabCursor: true,
@@ -46,14 +41,23 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
     breakpoints: {
-        576: {
-            slidesPerView: 1
-        },
-        768: {
-            slidesPerView: 2
-        },
-        1200: {
-            slidesPerView: 3
-        }
+      576: {
+        slidesPerView: 1
+      },
+      768: {
+        slidesPerView: 2
+      },
+      1200: {
+        slidesPerView: 3
+      }
     }
   });
+}
+
+// راه‌اندازی اسلایدر در بارگذاری اولیه صفحه
+document.addEventListener("DOMContentLoaded", function() {
+  initializeSlider(); // در بارگذاری اولیه نیز اسلایدر راه‌اندازی می‌شود
+});
+
+
+
