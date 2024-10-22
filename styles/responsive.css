@@ -55,6 +55,13 @@
     display: flex;
     justify-content: center;
   }
+
+  .fot-res{
+    margin: 0 !important;
+    max-width: 98% !important;
+    margin: 0 10px !important;
+  }
+
 }
 
 /* /////////////////////////////////////////////////////////////////////////////// */
