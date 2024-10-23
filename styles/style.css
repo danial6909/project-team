@@ -568,7 +568,7 @@ body::-webkit-scrollbar-thumb {
 
 .footer {
   width: 100%;
-  height: 350px;
+  padding-bottom: 20px;
   background-image: url(../assets/images/body/footer_bg.jpg);
   color: #fff;
 }
@@ -595,7 +595,10 @@ body::-webkit-scrollbar-thumb {
   gap: 1.5rem;
 }
 
+
 .title-content-footer {
+  position: relative;
+  display: inline-block; /* برای محدود کردن خط به طول متن */
   font-size: 2.5rem;
   font-family: var(--special-font);
   margin-top: 3rem;
@@ -605,12 +608,12 @@ body::-webkit-scrollbar-thumb {
 
 .title-content-footer::after {
   content: "";
-  height: 4px;
-  width: 30px;
+  display: block;
+  width: 30px; /* طول خط */
+  height: 4px; /* ضخامت خط */
   background-color: rgb(0, 55, 255);
-  position: absolute;
-  top: -17px;
-  border-radius: 2rem;
+  border-radius: 10px;
+  margin-top: 5px; /* فاصله از متن */
 }
 
 .footer-about-us-item {
@@ -709,6 +712,9 @@ body::-webkit-scrollbar-thumb {
   font-family: var(--primary-font);
   font-weight: bolder;
 }
+
+
+
 
 .share-footer {
   width: 20px;

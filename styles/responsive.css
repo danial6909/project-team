@@ -61,7 +61,9 @@
     max-width: 98% !important;
     margin: 0 10px !important;
   }
-
+  .fotter-content-top{
+    padding: 10px !important;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////// */
@@ -112,6 +114,9 @@
   .features-item{
     max-width: 600px !important;
   }
+  .fotter-content-top {
+    gap: 30px !important;
+  }
 }
 
 /* /////////////////////////////////////////////////////////////////////////////// */
@@ -135,6 +140,21 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .icon-footer{
+    gap: 5px !important;
+  }
+  .fotter-content-bottom {
+    gap: 20px !important;
+    flex-direction: column;
+  }
+  .fotter-content-top {
+    flex-direction: column;
+    padding-bottom: 30px !important;
+  }
+  .div-input-footer{
+    margin-top: 20px;
+  }
+ 
 }
 
 /* /////////////////////////////////////////////////////////////////////////////// */
