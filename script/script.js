@@ -19,39 +19,31 @@ function loadContent(page) {
 
 // تابع برای راه‌اندازی مجدد اسلایدر
 function initializeSlider() {
-  var swiper = new Swiper(".mySwiper", {
+  const swiper = new Swiper('.mySwiper', {
+    speed: 800,
     loop: true,
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+    spaceBetween: 110,
     breakpoints: {
-      576: {
-        slidesPerView: 1
-      },
-      768: {
-        slidesPerView: 2
-      },
-      1200: {
-        slidesPerView: 3
-      }
+        576: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        1200: {
+            slidesPerView: 3
+        }
     }
-  });
+});
+
 }
 
 // راه‌اندازی اسلایدر در بارگذاری اولیه صفحه

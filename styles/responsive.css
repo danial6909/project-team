@@ -14,9 +14,6 @@
   .about-us-box{
     justify-content: space-between;
   }
-  /* .about-us-left{
-    width: 400px;
-  } */
 }
 
 /* /////////////////////////////////////////////////////////////////////////////// */
@@ -54,6 +51,17 @@
   .about-list{
     display: flex;
     justify-content: center;
+  }
+  .info-price{
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 0 !important;
   }
 
   .fot-res{
@@ -111,6 +119,9 @@
   .head-right{
     margin-right: 20px;
   }
+
+
+
   .features-item{
     max-width: 600px !important;
   }
@@ -140,6 +151,14 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .img-about-us-larg {
+    max-width: 100% !important;
+  }
+  .img-about-us-short {
+    display: none;
+  }
+
   .icon-footer{
     gap: 5px !important;
   }
