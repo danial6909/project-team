@@ -4,19 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/variable.css">
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="vendor/Awesome/all.min.css">
-    <link rel="stylesheet" href="/components/header-menu/header-menu.css">
-    <link rel="stylesheet" href="components/menu/menu.css">
-    <link rel="stylesheet" href="./styles/about/style.css">
-    <link rel="stylesheet" href="./styles/about/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <title>صفحه اصلی</title>
+
+    <link rel="stylesheet" href="styles/home/home.css" data-dynamic="true">
+    <link rel="stylesheet" href="styles/home/home-responsive.css" data-dynamic="true">
 </head>
 
 <body>
@@ -101,10 +100,10 @@
                 </div>
 
                 <ul class="menu-items">
-                    <li class="menu-item"><a href="#" class="item-link">خانه</a></li>
-                    <li class="menu-item"><a href="#" class="item-link">نمونه کارها</a></li>
-                    <li class="menu-item"><a href="#" class="item-link">درباره ما</a></li>
-                    <li class="menu-item"><a href="#" class="item-link">تماس با ما</a></li>
+                    <li class="menu-item"><a href="#" class="item-link" onclick="loadContent('home')">خانه</a></li>
+                    <li class="menu-item"><a href="#" class="item-link" onclick="loadContent('portfolio')">نمونه کارها</a></li>
+                    <li class="menu-item"><a href="#" class="item-link" onclick="loadContent('about')">درباره ما</a></li>
+                    <li class="menu-item"><a href="#" class="item-link" onclick="loadContent('call-us')">تماس با ما</a></li>
                 </ul>
 
                 <div class="social-links">
@@ -125,6 +124,7 @@
 
 
     <main id="main">
+
         <div class="empty">
             <div class="background">
                 <div class="text-background">
