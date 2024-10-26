@@ -1,0 +1,76 @@
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 995px) {
+
+    .fot-res{
+      margin: 0 !important;
+      max-width: 98% !important;
+      margin: 0 10px !important;
+    }
+    .fotter-content-top{
+      padding: 10px !important;
+    }
+  }
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  
+  @media only screen and (max-width: 770px) {
+  
+    /* start menu  */
+    .head-menu {
+      display: none;
+    }
+    .nav_bar {
+      visibility: visible !important;
+      opacity: 1 !important;
+      margin-right: 30px;
+    }
+    .head-search-box {
+      display: none;
+    }
+    .top-head {
+      justify-content: space-between !important;
+    }
+    .hamburger {
+      display: block !important;
+    }
+    .head-right{
+      margin-right: 20px;
+    }
+  
+  
+  
+    .features-item{
+      max-width: 600px !important;
+    }
+    .fotter-content-top {
+      gap: 30px !important;
+    }
+  }
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  @media only screen and (max-width: 600px) {
+  
+    .icon-footer{
+      gap: 5px !important;
+    }
+    .fotter-content-bottom {
+      gap: 20px !important;
+      flex-direction: column;
+    }
+    .fotter-content-top {
+      flex-direction: column;
+      padding-bottom: 30px !important;
+    }
+    .div-input-footer{
+      margin-top: 20px;
+    }
+   
+  }
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  
+  
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */

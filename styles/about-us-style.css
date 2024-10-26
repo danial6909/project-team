@@ -1,3 +1,10 @@
+.heading-title{
+  font-size: 3.7rem;
+}
+.smaller-heading-title{
+  font-size: 2rem;
+  font-weight: bold;
+}
 .tow-icon{
 font-size: 3rem;
 transition: 0.5s;
@@ -6,13 +13,18 @@ transition: 0.5s;
     transform: rotateY(180deg);
 
 }
-
+@font-face{
+  font-family: aviny;
+  src: url(/assets/fonts/aviny.ttf);
+}
 .section-title{
-    width: 17rem;
-    height: 2rem;
+  font-family: aviny;
+  color: white;
+    font-size: 1.5rem;
+    width: 11rem;
+    height: 3rem;
     background-color: rgb(118, 158, 244);
     border-radius: 2rem;
-    color: white;
 }
 .circle{      
     width: 3rem;
@@ -121,6 +133,8 @@ transition: 0.5s;
     height: 3rem;
   }
   .section-contact-title{
+    font-size: 1.5rem;
+    width: 16rem;
     position: relative;
   }
   .feature-box{

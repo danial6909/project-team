@@ -1,16 +1,16 @@
 @font-face{
     font-family: yekan-bold;
-    src: url(../assets/fonts/iranyekanwebboldfanum.woff);
+    src: url(/assets/font/iranyekanwebboldfanum.woff);
 }
 @font-face{
     font-family: yekan-regular;
-    src: url(../assets/fonts/iranyekanwebregularfanum.woff);
+    src: url(/assets/fonts/iranyekanwebregularfanum.woff);
 }
 @font-face{
     font-family: sollid;
-    src: url(../assets/fonts/fa-solid-900.woff2);
+    src: url(/assets/fonts/fa-solid-900.woff2);
 }
 @font-face{
     font-family: aviny;
-    src: url(../assets/fonts/aviny.ttf);
+    src: url(/assets/fonts/aviny.ttf);
 }
