@@ -1,6 +1,9 @@
 :root {
-    --primary-color: #5085a5;
-    /* --primary-color: #687864; */
+    --primary-color:#31708e; 
+    --special-color: #687864;
+    --blue-color: #5085a5; 
+    --lightBlue: #8fc1e3;
+    --white-color: #f7f9fb;
     --menu-font: "yekan-bold";
     --special-font: "aviny";
     --primary-font: "yekan-regular"
