@@ -3,7 +3,6 @@
         width: 80px;
         height: 80px;
         margin-top: 6rem;
-    margin-right: 0rem;
     }
     .red-dot-icon{
         font-size: 50px;
@@ -11,7 +10,6 @@
     }
     
 }
-
 @media screen and (max-width: 1220px){
     .business-goal{
         margin-top: 283px;
@@ -42,7 +40,13 @@
     .business-goal{
         visibility: hidden;
     }
-
+    .rotating-shape{
+        visibility: hidden;
+    }
+    .moving-img{
+        margin-top: 30rem;
+        margin-right: 20rem;
+    }
 }
 @media screen and (max-width: 576px){
     .feature-icon{
