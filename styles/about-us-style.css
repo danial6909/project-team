@@ -50,6 +50,7 @@
 .tow-icon{
 font-size: 4rem;
 transition: 0.5s;
+color: var(--blue-color);
 }
 .tow-icon:hover{
     transform: rotateY(180deg);
@@ -78,6 +79,15 @@ transition: 0.5s;
     margin-top: -0.5rem;
     margin-right: -0.5rem;
     transition: all 0.3s ease-in-out;
+}
+.circle-3{
+  width: 4rem;
+  height: 4rem;
+  background-color: #d3ecfd;
+  border-radius: 50%;  
+  margin-top: 0.5rem;
+  margin-right: -0.5rem;
+  transition: all 0.3s ease-in-out;
 }
 .feature-box:hover .circle{
     transform: translatey(30%);
@@ -157,7 +167,12 @@ transition: 0.5s;
     border-left: 3px solid white
     
   }
+  
   .contact-icon{
+    font-size: 50px;
+    color: var(--blue-color);
+  }
+  .phone-contact-icon{
     font-size: 50px;
   }
   .contact-btn{
@@ -200,7 +215,6 @@ transition: 0.5s;
     padding-left: 10%;
   }
   .feature-content{
-    margin-right: 20px;
   }
   .feature-row{
     padding-top: 10rem;
@@ -376,6 +390,8 @@ transition: 0.5s;
 }
 .four-span{
   color: rgb(166, 166, 166);
+  width: 120px;
+  display: inline-block;
 }
 .four-h4{
   font-size: 3rem;
@@ -386,6 +402,9 @@ transition: 0.5s;
       font-family: var(--special-font);
 }
 /* temprary css responsive */
+@media  screen and (max-width: 2700px) {
+
+}
 @media screen and (max-width: 1300px){
   .red-dot{
       width: 80px;
@@ -396,7 +415,7 @@ transition: 0.5s;
       font-size: 50px;
       
   }
-  
+
 }
 @media screen and (max-width: 1220px){
   .business-goal{
