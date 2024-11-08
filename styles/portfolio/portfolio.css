@@ -52,13 +52,12 @@
   border-radius: 10px;
 }
 .contact-icon{
-  font-size: 2rem;
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: var(--custom-blue);
   text-align: center;
-  padding-top: 1rem;  
+  padding: 1rem;  
   color: var(--blue-color);
 }
 .heading-title{
