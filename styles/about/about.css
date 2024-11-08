@@ -159,11 +159,7 @@ color: var(--blue-color);
     padding-bottom: 4rem;
   }
   .information-img{
-<<<<<<< HEAD
-    margin-top: rem;
-=======
     margin-top: -8rem;
->>>>>>> 8701cfa4576f0700c943227762aab0c13b799017
     position: absolute;
     z-index: 0;
   }
@@ -190,13 +186,10 @@ color: var(--blue-color);
     padding-bottom: 1rem;
     color: var(--white-color)
   }
-<<<<<<< HEAD
-=======
   .contact-btn:hover{
     background-color: var(--blue-color);
     border: none;
   }
->>>>>>> 8701cfa4576f0700c943227762aab0c13b799017
   .section-contact-title{
     font-size: 3rem;
     position: relative;
@@ -394,9 +387,6 @@ color: var(--blue-color);
   background-repeat: no-repeat;
   background-position-x: right;  
   
-<<<<<<< HEAD
-}
-=======
 }
 .four-span{
   color: rgb(166, 166, 166);
@@ -478,4 +468,3 @@ color: var(--blue-color);
   }
 }
 /* end */
->>>>>>> 8701cfa4576f0700c943227762aab0c13b799017
