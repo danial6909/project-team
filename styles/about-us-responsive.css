@@ -1,0 +1,58 @@
+@media screen and (max-width: 1300px){
+    .red-dot{
+        width: 80px;
+        height: 80px;
+        margin-top: 6rem;
+    margin-right: 0rem;
+    }
+    .red-dot-icon{
+        font-size: 50px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1220px){
+    .business-goal{
+        margin-top: 283px;
+
+    }
+}
+@media screen and (max-width: 1200px){
+    .contact-info{
+        border-right: 3px solid white;
+        border-left: none;
+    }
+
+}
+
+@media screen and (max-width: 982px){
+    .business-goal{
+        margin-top: 350px;
+    }
+}
+@media screen and (max-width: 768px){
+    .contact-info{
+        border: none;
+    }
+    .sec-div{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .business-goal{
+        visibility: hidden;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .feature-icon{
+
+        border-right: 2px solid rgb(188, 188, 188);
+        border-left: none;
+        padding-left: 0%;
+        padding-right: 7%;
+    }
+    .circle{
+        margin-right: 35px;
+    }
+}

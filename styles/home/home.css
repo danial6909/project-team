@@ -187,8 +187,7 @@ i {
 /* start text background header  */
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 .section {
-  background: url(../assets/images/background/about_bg.jpg);
-  background-size: cover;
+  background: url(/assets/images/background/about_bg.jpg);
   background-position: center;
 }
 
@@ -544,8 +543,9 @@ i {
 
 
 .slider {
-  background: url(/assets/images/body/footer_bg.jpg);
+  background: url(/assets/images/background/services_bg.jpg);
   display: flex;
+  height:900px;
   align-items: center;
   justify-content: center;
   padding: 2rem;
