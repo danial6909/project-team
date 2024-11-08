@@ -130,7 +130,6 @@ function initializeSlider() {
       delay: 2500,
       disableOnInteraction: false
     },
-    // spaceBetween: 1,
     breakpoints: {
         1: {
             slidesPerView: 1
