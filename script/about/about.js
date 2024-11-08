@@ -13,6 +13,7 @@ const icon_eight = document.getElementById("eight-icon-change");
 const first_span = document.getElementById("my-span");
 const second_span = document.getElementById("label-input");
 function toggleMenu_first() {
+    console.log("clicked")
 menu_first.classList.toggle("open");
 icon_fisrt.classList.toggle("d-none");
 icon_second.classList.toggle("d-none");

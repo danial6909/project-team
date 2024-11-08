@@ -433,6 +433,9 @@ body::-webkit-scrollbar-thumb {
     gap: 1.5rem;
   }
   
+  .footer-box:last-child{
+    margin-bottom: 3rem;
+  }
   
   .title-content-footer {
     position: relative;
@@ -464,8 +467,10 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-around;
     padding-bottom: 30px;
     border-bottom: 2px solid rgb(70, 70, 70);
+    flex-wrap: wrap;
   }
-  
+ 
+
   .text-fotter-about,
   .text-fotter-menu {
     text-decoration: none;

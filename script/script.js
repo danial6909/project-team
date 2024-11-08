@@ -5,7 +5,7 @@ console.log(top_head)
 document.addEventListener("scroll", () => {
     let scroll_position = window.scrollY;
 
-    if (scroll_position > 300) {
+    if (scroll_position > 150) {
         top_head.classList.add("scrolled"); 
         
     } else {
@@ -130,12 +130,12 @@ function initializeSlider() {
       delay: 2500,
       disableOnInteraction: false
     },
-    spaceBetween: 110,
+    // spaceBetween: 1,
     breakpoints: {
-        576: {
+        1: {
             slidesPerView: 1
         },
-        768: {
+        900: {
             slidesPerView: 2
         },
         1200: {
