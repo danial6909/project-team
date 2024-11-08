@@ -1,0 +1,83 @@
+.underline{
+    width: 30px;
+    height: 5px;
+    background-color: var(--special-color);
+    border-radius: 50px;
+}
+.contact-btn{
+  background-color: var(--blue-color);
+  border-radius: 40px;
+  transition: 0.2s;
+  height: 5rem;
+  width: 16rem;
+  padding-top: 0.9rem;
+  padding-bottom: 1rem;
+  color: var(--white-color);
+  border: none;
+  font-size: 1.5rem;
+}
+.second-contact-btn{
+  border-radius: 40px;
+  transition: 0.2s;
+  height: 5rem;
+  width: 16rem;
+  padding-top: 0.9rem;
+  padding-bottom: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  background-color: var(--lightBlue);
+  color: #224b5e;
+}
+.second-contact-btn:hover{
+  color: white;
+  background-color: var(--blue-color);
+}
+.contact-btn:hover{
+  background-color: var(--lightBlue);
+  color: #224b5e;
+}
+.third-progress{
+  width: 75%;
+  background-color: var(--special-color);
+}
+.second-progress{
+  width: 55%;
+  background-color: var(--special-color);
+}
+.first-progress{
+  width: 25%;
+  background-color: var(--special-color);
+}
+.person-img{
+  border-radius: 10px;
+}
+.contact-icon{
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--custom-blue);
+  text-align: center;
+  padding-top: 1rem;  
+  color: var(--blue-color);
+}
+.heading-title{
+  font-size: 3.7rem;
+  font-family: var(--special-font);
+}
+.contact-info{
+  font-size: 1.7rem;
+  font-family: var(--perimary-font);
+  font-weight: bold;
+}
+.smaller-heading-title{
+  font-family: var(--special-font);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.progress{
+  font-family: var(--special-font);
+  height: 2rem;
+  border-radius: 20px;
+  font-size: 25px;
+}
