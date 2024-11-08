@@ -159,11 +159,7 @@ color: var(--blue-color);
     padding-bottom: 4rem;
   }
   .information-img{
-
-    margin-top: rem;
-
     margin-top: -8rem;
-
     position: absolute;
     z-index: 0;
   }
@@ -190,12 +186,10 @@ color: var(--blue-color);
     padding-bottom: 1rem;
     color: var(--white-color)
   }
-
   .contact-btn:hover{
     background-color: var(--blue-color);
     border: none;
   }
-
   .section-contact-title{
     font-size: 3rem;
     position: relative;
@@ -392,7 +386,7 @@ color: var(--blue-color);
   background-repeat: no-repeat;
   background-position-x: right;  
   
-
+}
 .four-span{
   color: rgb(166, 166, 166);
   width: 120px;
