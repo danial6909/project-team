@@ -57,7 +57,10 @@ backgrond_filter.addEventListener("click", () => {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 // جابه جا شدن صفحات
 function loadContent(page) {
-  close_menu()
+  // ذحیره مسیر فعلی و حفظ اطلاعات برای رفرش شدن صفحه
+  sessionStorage.setItem('currentPage', page);
+
+  close_menu();
   removeExistingAssets();
   fetch(`pages/${page}.html`)
     .then(response => {
@@ -116,6 +119,18 @@ function removeExistingAssets() {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// بارگذاری صفحه هنگام بارگذاری اولیه سایت
+window.addEventListener('load', () => {
+  const savedPage = sessionStorage.getItem('currentPage');
+  
+  if (savedPage) {
+    loadContent(savedPage); // اگر صفحه‌ای ذخیره شده باشد، بارگذاری شود
+  } else {
+    loadContent('home'); // اگر هیچ صفحه‌ای ذخیره نشده باشد، صفحه اصلی لود شود
+  }
+});
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // تابع برای راه‌اندازی مجدد اسلایدر
 function initializeSlider() {
