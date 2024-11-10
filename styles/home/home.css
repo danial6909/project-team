@@ -32,7 +32,6 @@ i {
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
 /* ////////////////////////////////////////////////////////////////////////// */
 /* start style css  */
 
@@ -430,7 +429,7 @@ i {
   margin-left: 1rem;
 }
 
-.info-price{
+.info-price {
   font-weight: bold;
   font-size: 1.5rem;
   font-family: var(--primary-font);
@@ -440,10 +439,9 @@ i {
   margin-top: 3rem;
 }
 
-
 /* ///////////////////////////////////////// */
 /* start btn  */
-.btn-box{
+.btn-box {
   margin-top: 30px;
 }
 .btn-2 {
@@ -543,7 +541,6 @@ i {
   margin: 5rem 0;
 }
 
-
 .subject-slider {
   font-size: 15px;
   margin-bottom: 20px;
@@ -580,7 +577,6 @@ i {
   font-size: 2rem;
   font-family: var(--primary-font);
   text-align: center;
-
 }
 
 /* :default style  */
@@ -590,7 +586,7 @@ i {
   padding-right: 7rem;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background-color: rgb(0, 255, 191);
   width: 13px;
   height: 13px;
@@ -599,12 +595,11 @@ i {
 .slider {
   background: url(/assets/images/background/services_bg.jpg);
   display: flex;
-  height:1100px;
+  height: 1100px;
   align-items: center;
   justify-content: center;
   padding-top: 10rem;
   padding-bottom: 5rem;
-  margin-bottom: 40rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -670,8 +665,7 @@ i {
 /* FINISH slider  */
 /* //////////////////////////////////////////////////////////////////////////////////////// */
 
-
-.protect-loader{
+.protect-loader {
   z-index: 30;
   position: fixed;
   top: 0;
@@ -680,7 +674,7 @@ i {
   background-color: #fff5f5;
 }
 
-/* From Uiverse.io by Admin12121 */ 
+/* From Uiverse.io by Admin12121 */
 .loader {
   --duration: 3s;
   --primary: rgba(39, 94, 254, 1);
@@ -701,7 +695,8 @@ i {
   }
 }
 
-.loader:before, .loader:after {
+.loader:before,
+.loader:after {
   --r: 20.5deg;
   content: "";
   width: 320px;
@@ -709,7 +704,7 @@ i {
   position: absolute;
   right: 32%;
   bottom: -11px;
-/* change the back groung color on switching from light to dark mood */
+  /* change the back groung color on switching from light to dark mood */
   background: #e8e8e8;
   transform: translateZ(200px) rotate(var(--r));
   -webkit-animation: mask var(--duration) linear forwards infinite;
@@ -731,17 +726,25 @@ i {
 }
 
 .loader .ground div {
-  transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
+    translateZ(100px) scale(0);
   width: 200px;
   height: 200px;
   background: var(--primary);
-  background: linear-gradient(45deg, var(--primary) 0%, var(--primary) 50%, var(--primary-light) 50%, var(--primary-light) 100%);
+  background: linear-gradient(
+    45deg,
+    var(--primary) 0%,
+    var(--primary) 50%,
+    var(--primary-light) 50%,
+    var(--primary-light) 100%
+  );
   transform-style: preserve-3d;
   -webkit-animation: ground var(--duration) linear forwards infinite;
   animation: ground var(--duration) linear forwards infinite;
 }
 
-.loader .ground div:before, .loader .ground div:after {
+.loader .ground div:before,
+.loader .ground div:after {
   --rx: 90deg;
   --ry: 0deg;
   --x: 44px;
@@ -753,7 +756,8 @@ i {
   opacity: 0;
   background: linear-gradient(var(--primary), var(--primary-rgba));
   position: absolute;
-  transform: rotateX(var(--rx)) rotateY(var(--ry)) translate(var(--x), var(--y)) translateZ(var(--z));
+  transform: rotateX(var(--rx)) rotateY(var(--ry)) translate(var(--x), var(--y))
+    translateZ(var(--z));
   -webkit-animation: ground-shine var(--duration) linear forwards infinite;
   animation: ground-shine var(--duration) linear forwards infinite;
 }
@@ -786,7 +790,8 @@ i {
   transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
 }
 
-.loader .box div:before, .loader .box div:after {
+.loader .box div:before,
+.loader .box div:after {
   --rx: 90deg;
   --ry: 0deg;
   --z: 24px;
@@ -797,7 +802,8 @@ i {
   background-color: inherit;
   width: inherit;
   height: inherit;
-  transform: rotateX(var(--rx)) rotateY(var(--ry)) translate(var(--x), var(--y)) translateZ(var(--z));
+  transform: rotateX(var(--rx)) rotateY(var(--ry)) translate(var(--x), var(--y))
+    translateZ(var(--z));
   filter: brightness(var(--b, 1.2));
 }
 
@@ -950,7 +956,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  25%, 52% {
+  25%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -958,7 +965,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -968,7 +976,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  25%, 52% {
+  25%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -976,7 +985,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -986,7 +996,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  14%, 100% {
+  14%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -996,7 +1007,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  14%, 100% {
+  14%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1006,7 +1018,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  29%, 52% {
+  29%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1014,7 +1027,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1024,7 +1038,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  29%, 52% {
+  29%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1032,7 +1047,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1042,7 +1058,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  18%, 100% {
+  18%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1052,7 +1069,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  18%, 100% {
+  18%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1062,7 +1080,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  33%, 52% {
+  33%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1070,7 +1089,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1080,7 +1100,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  33%, 52% {
+  33%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1088,7 +1109,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1098,7 +1120,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  22%, 100% {
+  22%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1108,7 +1131,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  22%, 100% {
+  22%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1118,7 +1142,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  37%, 52% {
+  37%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1126,7 +1151,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1136,7 +1162,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  37%, 52% {
+  37%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1144,7 +1171,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1154,7 +1182,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  26%, 100% {
+  26%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1164,7 +1193,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  26%, 100% {
+  26%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1174,7 +1204,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  41%, 52% {
+  41%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1182,7 +1213,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1192,7 +1224,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  41%, 52% {
+  41%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1200,7 +1233,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1210,7 +1244,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  30%, 100% {
+  30%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1220,7 +1255,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  30%, 100% {
+  30%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1230,7 +1266,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  45%, 52% {
+  45%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1238,7 +1275,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1248,7 +1286,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  45%, 52% {
+  45%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1256,7 +1295,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1266,7 +1306,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  34%, 100% {
+  34%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1276,7 +1317,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  34%, 100% {
+  34%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1286,7 +1328,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  49%, 52% {
+  49%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1294,7 +1337,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1304,7 +1348,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  49%, 52% {
+  49%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1312,7 +1357,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1322,7 +1368,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  38%, 100% {
+  38%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1332,7 +1379,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  38%, 100% {
+  38%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1342,7 +1390,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  53%, 52% {
+  53%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1350,7 +1399,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1360,7 +1410,8 @@ i {
     transform: translate(var(--x), var(--y));
   }
 
-  53%, 52% {
+  53%,
+  52% {
     transform: translate(0, 0);
   }
 
@@ -1368,7 +1419,8 @@ i {
     transform: translate(0, -32px);
   }
 
-  90%, 100% {
+  90%,
+  100% {
     transform: translate(0, 188px);
   }
 }
@@ -1378,7 +1430,8 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  42%, 100% {
+  42%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
@@ -1388,45 +1441,58 @@ i {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
   }
 
-  42%, 100% {
+  42%,
+  100% {
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
 }
 
 @-webkit-keyframes ground {
-  0%, 65% {
-    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  0%,
+  65% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
+      translateZ(100px) scale(0);
   }
 
-  75%, 90% {
-    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(1);
+  75%,
+  90% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
+      translateZ(100px) scale(1);
   }
 
   100% {
-    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
+      translateZ(100px) scale(0);
   }
 }
 
 @keyframes ground {
-  0%, 65% {
-    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+  0%,
+  65% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
+      translateZ(100px) scale(0);
   }
 
-  75%, 90% {
-    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(1);
+  75%,
+  90% {
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
+      translateZ(100px) scale(1);
   }
 
   100% {
-    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px) translateZ(100px) scale(0);
+    transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
+      translateZ(100px) scale(0);
   }
 }
 
 @-webkit-keyframes ground-shine {
-  0%, 70% {
+  0%,
+  70% {
     opacity: 0;
   }
 
-  75%, 87% {
+  75%,
+  87% {
     opacity: 0.2;
   }
 
@@ -1436,11 +1502,13 @@ i {
 }
 
 @keyframes ground-shine {
-  0%, 70% {
+  0%,
+  70% {
     opacity: 0;
   }
 
-  75%, 87% {
+  75%,
+  87% {
     opacity: 0.2;
   }
 
@@ -1450,21 +1518,25 @@ i {
 }
 
 @-webkit-keyframes mask {
-  0%, 65% {
+  0%,
+  65% {
     opacity: 0;
   }
 
-  66%, 100% {
+  66%,
+  100% {
     opacity: 1;
   }
 }
 
 @keyframes mask {
-  0%, 65% {
+  0%,
+  65% {
     opacity: 0;
   }
 
-  66%, 100% {
+  66%,
+  100% {
     opacity: 1;
   }
 }
@@ -1472,5 +1544,162 @@ i {
 /* finish loader */
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 
+/* start price  */
+.heading-title {
+  font-size: 3.7rem;
+  font-family: var(--special-font);
+}
+.price-section-title {
+  color: #f0f6f9;
+  font-size: 1.5rem;
+  width: 24rem;
+  height: 3rem;
+  background-color: var(--lightBlue);
+  border-radius: 2rem;
+}
 
+.smaller-heading-title {
+  font-family: var(--special-font);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.txt {
+  font-family: var(--primary-font);
+}
+.business-goal-text {
+  font-size: 1.7rem;
+  color: rgb(161, 160, 160);
+}
+.business-goal-numb {
+  font-size: 2.5rem;
+}
 
+.price-plan {
+  padding-bottom: 5rem;
+}
+
+.price-section-img {
+  font-family: var(--primary-font);
+  margin-top: 200px;
+}
+.header-row {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+.text-header {
+  font-family: var(--primary-font);
+}
+.form-switch {
+  font-size: 30px;
+}
+#flexSwitchCheckChecked:focus {
+  box-shadow: none;
+  background-color: #0d6efd;
+  --bs-form-my-bg: url(/assets/images/download.svg);
+  background-image: url(/assets/images/download.svg);
+}
+#flexSwitchCheckChecked {
+  background-color: #0d6efd;
+  --bs-form-my-bg: url(/assets/images/download.svg);
+  background-image: url(/assets/images/download.svg);
+}
+.form-switch .form-check-input {
+  --bs-form-my-bg: url(/assets/images/download.svg);
+  background-image: url(/assets/images/download.svg);
+}
+#my-span {
+  font-size: 30px;
+}
+.toggle-color {
+  color: rgb(34, 63, 248);
+}
+#year-text {
+  color: rgb(138, 138, 138);
+  font-size: 14px;
+}
+#plan-price {
+  font-size: 40px;
+  font-weight: 30px;
+}
+.price-box {
+  background-color: rgb(229, 236, 239);
+  border-radius: 50px;
+}
+.check-icon {
+  color: rgb(0, 150, 0);
+}
+#label-input {
+  margin-left: -90px;
+}
+.arrow-iocn {
+  background-color: black;
+  border-radius: 50%;
+  height: 3rem;
+}
+.second-contact-btn {
+  border-radius: 40px;
+  border: 1px solid white;
+  transition: 0.2s;
+  height: 3rem;
+}
+.second-contact-btn:hover {
+  background-color: #0d6efd;
+  border-color: white;
+}
+.best-offer {
+  color: white;
+  background-color: red;
+  margin-top: -15px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 50px;
+  width: 8rem;
+}
+.price-plan {
+  background: rgb(235, 239, 251);
+  background: radial-gradient(
+    circle,
+    rgba(235, 239, 251, 1) 0%,
+    rgba(255, 255, 255, 1) 95%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.second-bg {
+  background-image: url(/assets/images/background/inner_counter_shape.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.four-span {
+  color: rgb(166, 166, 166);
+  width: 120px;
+  display: inline-block;
+}
+.four-h4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.sec-div {
+  font-size: 2.4rem;
+  font-family: var(--special-font);
+}
+
+.contact-btn {
+  background-color: var(--lightBlue);
+  border-radius: 40px;
+  border: 1px solid white;
+  transition: 0.2s;
+  height: 4rem;
+  width: 15rem;
+  padding-top: 0.9rem;
+  padding-bottom: 1rem;
+  color: var(--white-color);
+  margin-bottom: 4rem;
+}
+.contact-btn:hover {
+  background-color: var(--blue-color);
+  border: none;
+}
+.text-center {
+  border-radius: 10px;
+}
+
+/* finish price  */

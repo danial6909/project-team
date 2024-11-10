@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/variable.css">
     <link rel="stylesheet" href="styles/fonts.css">
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="vendor/Awesome/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet"href="/assets/bootstrap-5.3.3-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet"href="/assets/bootstrap-5.3.3-dist/css/bootstrap.css"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"crossorigin="anonymous"/>
+    <!-- باید خط پایین بعد خط بالا لینک بشه اگه قبلش باشه فونت اعمال نمیشود -->
+    <link rel="stylesheet" href="styles/style.css"> 
+    
     <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
     <link rel="stylesheet" href="styles/home/home.css" data-dynamic="true">
     <link rel="stylesheet" href="styles/home/home-responsive.css" data-dynamic="true">
@@ -430,7 +436,212 @@
                     </div>
               
         </div>
+
+        <section class="price-plan">
+
+            <div class="second-bg">
+
+              <div class="container">
+                <!-- header -->
+
+                <div class="row header-row">
+                  <div class="col-md-6 col-12 mt-4">
+                    <span
+                      class="ms-md-0 mx-auto mb-4 mt-3 mt-lg-0 price-section-title d-flex align-items-center justify-content-center"
+                    >
+                      طرح قیمت گذاری انعطاف پذیر
+                    </span>
+                    <span class="ms-md-3 d-flex justify-content-md-start justify-content-center heading-title fw-bold"
+                    >ما بهترین قیمت ها را ارائه کرده ایم
+                  </span>
+                </div>
+                <div class="col-md-6 col-12 mt-4">
+                  <p class="text-md-start text-center text-header">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+                    در ستون و سطرآنچنان که لازم است.
+                  </p>
+                </div>
+              </div>
+
+              <!-- toggle swich -->
+              <div class="row">
+                <div class="col-12 text-center mb-5">
+                  <span class="me-3" id="my-span">ماهانه</span>
+                  <div class="form-check form-switch d-inline-block">
+                    <label
+                      class="form-check-label toggle-color"
+                      for="flexSwitchCheckChecked"
+                      id="label-input"
+                      >سالانه</label
+                    >
+                    <input
+                      onclick="toggleSwitch()"
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- content -->
+              <!-- cards -->
+
+              <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <h3 class="mt-4 mb-3">طرح پایه</h3>
+                      <span
+                        >مناسب برای ایجاد وبسایت های نوپا و تازه تاسیس. قابل ارتقا
+                        به طرح بهتر!
+                      </span>
+                      <div class="price-box my-4">
+                        <!-- price-box -->
+                        <span id="plan-price" class=""> 1000</span>
+                        <span class="fs-5">تومان / </span
+                        ><span id="year-text">سال</span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>5000 فعالیت کاربر </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>دسترسی نامحدود </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>بدون شارژ مخفی </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>03 به روز رسانی زمان </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>فایل منبع Figma </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>بسیاری از امکانات دیگر </span>
+                      </div>
+                      <button type="button" class="contact-btn">
+                        <span class="mx-4">تماس با ما</span
+                        ><i class="fas fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-5 col-12 col-md-6 col-lg-4 ">
+                  <div class="d-flex justify-content-center">
+                    <span class="position-absolute z-2 best-offer text-center"
+                      >پشنهادی</span
+                    >
+                  </div>
+                  <div class="card text-center position-relative z-1">
+                    <div class="card-body">
+                      <h3 class="mt-4 mb-3">طرح پایه</h3>
+                      <span>مناسب برای ایجاد وبسایت های نوپا و تازه تاسیس. قابل ارتقا
+                        به طرح بهتر!
+                      </span>
+                      <div class="price-box my-4">
+                        <!-- price-box -->
+                        <span id="plan-price" class=""> 1000</span>
+                        <span class="fs-5">تومان / </span
+                        ><span id="year-text">سال</span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>5000 فعالیت کاربر </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>دسترسی نامحدود </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>بدون شارژ مخفی </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>03 به روز رسانی زمان </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>فایل منبع Figma </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>بسیاری از امکانات دیگر </span>
+                      </div>
+                      <button type="button" class="contact-btn">
+                        <span class="mx-4">تماس با ما</span
+                        ><i class="fas fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-5 col-12 col-md-6 col-lg-4 mx-auto ">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <h3 class="mt-4 mb-3">طرح پایه</h3>
+                      <span
+                        >مناسب برای ایجاد وبسایت های نوپا و تازه تاسیس. قابل ارتقا
+                        به طرح بهتر!
+                      </span>
+                      <div class="price-box my-4">
+                        <!-- price-box -->
+                        <span id="plan-price" class=""> 1000</span>
+                        <span class="fs-5">تومان / </span
+                        ><span id="year-text">سال</span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>5000 فعالیت کاربر </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>دسترسی نامحدود </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>بدون شارژ مخفی </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>03 به روز رسانی زمان </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>فایل منبع Figma </span>
+                      </div>
+                      <div class="mb-3">
+                        <i class="me-2 check-icon fa fa-check"></i>
+                        <span>بسیاری از امکانات دیگر </span>
+                      </div>
+                      <button type="button" class="contact-btn">
+                        <span class="mx-4">تماس با ما</span
+                        ><i class="fas fa-arrow-left"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </section>
                 
+        
     </main>
 
 
